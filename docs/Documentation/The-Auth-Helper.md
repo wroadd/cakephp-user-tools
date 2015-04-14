@@ -26,7 +26,7 @@ class AppController extends Controller {
 	);
 
 	public function beforeRender() {
-		$this->set('userData', $this->Auth->user());
+		$this->set('userData', $this->Auth->identify());
 	}
 }
 ```
