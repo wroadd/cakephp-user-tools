@@ -33,7 +33,7 @@ Add the plugin to your applications `bootstrap.php`
 Plugin::load('Burzum/UserTools');
 ```
 
-For a quick start simply attach the UserTool component to a controller and go to to `/<your-controller>/register` and register a new user.
+For a quick start simply attach the UserTool component to a controller and go to `/<your-controller>/register` and register a new user.
 
 If you're unsure how to do that see the [Quick Start](../Tutorials/Quick-Start.md).
 
